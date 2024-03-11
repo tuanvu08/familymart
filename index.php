@@ -95,7 +95,7 @@ if (!isset($_SESSION['cart'])) {
                         $id = $row["id"];
                         $info = $row["info"];
                 ?>
-                        <div class="col-md">
+                        <div class="col-md-3">
                             <div class="product-card">
                                 <?php if ($giamgia == null) {
                                 ?><div class="badge">hot</div><?php
@@ -275,7 +275,7 @@ if (!isset($_SESSION['cart'])) {
                         $id = $row["id"];
                         $info = $row["info"];
                 ?>
-                        <div class="col-md">
+                        <div class="col-md-3">
                             <div class="product-card">
                                 <div class="badge">Hot</div>
                                 <div class="product-tumb">
