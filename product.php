@@ -65,7 +65,7 @@ if (!isset($_GET["id"])) {
                     $id = $row["id"];
                     $info = $row["info"];
             ?>
-                    <div class="col-md">
+                    <div class="col-md-3">
                         <div class="product-card">
                             <div class="badge">Hot</div>
                             <div class="product-tumb">
