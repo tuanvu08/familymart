@@ -64,7 +64,7 @@ include('includes/config.php');
                     $id = $row["id"];
                     $info = $row["info"];
             ?>
-                    <div class="col-md">
+                    <div class="col-md-3">
                         <div class="product-card">
                             <?php if ($giamgia == null) {
                             ?><div class="badge">hot</div><?php
