@@ -63,7 +63,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
                         $id = $row["id"];
                         $info = $row["info"];
                 ?>
-                        <div class="col-md">
+                        <div class="col-md-3">
                             <div class="product-card">
                                 <div class="badge">Hot</div>
                                 <div class="product-tumb">
