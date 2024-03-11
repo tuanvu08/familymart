@@ -59,7 +59,7 @@ if ($_SESSION['taikhoan'] == "") {
                     if ($spyeuthich->num_rows > 0) {
                         while ($row = $spyeuthich->fetch_assoc()) {
                     ?>
-                            <div class="col-md">
+                            <div class="col-md-3">
                                 <div class="product-card">
                                     <div class="badge">Hot</div>
                                     <div class="product-tumb">
